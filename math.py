@@ -13,5 +13,6 @@ this is a comment section used for testing only
 lower case and upercase are two different variables
 i can use numbers too but i cant use hash marks
 """
-# Ask the user for the list of numbers
+# Ask the user for their list of numbers
 x = input('Please enter your list of numbers: ')
+# Take that list of numbers and find the largest number within that data set
