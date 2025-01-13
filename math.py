@@ -13,7 +13,5 @@ this is a comment section used for testing only
 lower case and upercase are two different variables
 i can use numbers too but i cant use hash marks
 """
-
-x, y, z = '1', '2', '3'
-
-print(x,y,z)
+# Ask the user for the list of numbers
+x = input('Please enter your list of numbers: ')
