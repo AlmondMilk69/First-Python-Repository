@@ -16,3 +16,5 @@ i can use numbers too but i cant use hash marks
 # Ask the user for their list of numbers
 x = input('Please enter your list of numbers: ')
 # Take that list of numbers and find the largest number within that data set
+print(f'Is this your list of numbers? {x}')
+input()
