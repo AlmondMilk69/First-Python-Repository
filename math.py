@@ -14,7 +14,8 @@ lower case and upercase are two different variables
 i can use numbers too but i cant use hash marks
 """
 # Ask the user for their list of numbers
-x = input('Please enter your list of numbers: ')
-# Take that list of numbers and find the largest number within that data set
-print(f'Is this your list of numbers? {x}')
-input()
+number_list = input('Please enter your list of numbers: ')
+# remove the whitespace from the str
+number_list = number_list.strip()
+# ask the user if the numbers they have provided look correct
+print(f'Is this your list of numbers? {number_list}')
