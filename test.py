@@ -6,12 +6,10 @@ age = 2025 - int(birth_year)
 print(age)
 '''
 
-x = input('What is the value of x? ').strip
-y = input('What is the value of y? ').strip
+x = int(input('What is the value of x? '))
+y = int(input('What is the value of y? '))
 # i dont understand why .strip is throwing an error???
 # working on how to ask the user what operation they want to perform
 # a = input('What operation would you like to perform? ')
 
-z = int(x) + int(y)
-
-print('z is equal to:', int(z))
+print('The answer is equal to:', x + y)
