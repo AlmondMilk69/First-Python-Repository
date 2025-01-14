@@ -8,7 +8,6 @@ print(age)
 
 x = int(input('What is the value of x? '))
 y = int(input('What is the value of y? '))
-# i dont understand why .strip is throwing an error???
 # working on how to ask the user what operation they want to perform
 # a = input('What operation would you like to perform? ')
 
